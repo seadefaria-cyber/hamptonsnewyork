@@ -32,6 +32,15 @@
     opacity: 0;
     animation: fadeIn 30s ease-in forwards;
   }
+  .mark {
+    position: fixed;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    width: min(150px, 42vw);
+    opacity: 0;
+    animation: fadeIn 30s ease-in forwards;
+  }
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -40,5 +49,6 @@
 </head>
 <body>
   <img src="logo.png" alt="Hamptons New York" class="logo">
+  <img src="footer-mark.png" alt="Hamptons New York, Made in America" class="mark">
 </body>
 </html>
